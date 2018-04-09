@@ -1,0 +1,123 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/thorbcg.jpg);
+	filter: brightness(150%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../img/thorham.jpg);
+	background-size: cover;
+	background-position: top;
+
+	height: 10%;
+	min-height: 30px;
+	filter: brightness(100%);
+	border-bottom: 2px #5D9FC9 solid;
+}
+header a {
+	color: #053D5F;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header a:hover {
+	color: #5D9FC9;
+}
+.menu {
+	text-align: center;
+	margin-top: 10%;
+}
+.menu a {
+	display: inline-block;
+	padding: 10px 7px 3px 7px;
+	background-color: #5D9FC9;
+	border-left: #053D5F 2px solid; 
+	border-top: #053D5F 2px solid;
+	border-right: #053D5F 2px solid;
+	
+
+}
+.menu a:hover {
+	background-color: #053D5F; 
+	border-left: #5D9FC9 3px solid; 
+	border-top: #5D9FC9 3px solid;
+	border-right: #5D9FC9 3px solid;
+}
+.menu .current {
+	color: #5D9FC9;
+	background-color: #053D5F;
+	border-left: #5D9FC9 3px solid; 
+	border-top: #5D9FC9 3px solid;
+	border-right: #5D9FC9	 3px solid;
+}
+
+.filmy {
+	margin: 20px 0;
+}
+.container .movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.container .movies img {
+	width: 32%;
+	height: 57vh;
+	margin: 3px;
+	margin-bottom: 6px;
+}
+h1 {
+	margin-left: 3%;
+	color: #053D5F;
+}
+p {
+	text-align: justify;
+	margin: 2% 3% 2% 3%;
+	color: #000000;
+}
+h2 {
+	margin: 5px;
+	color: #053D5F;
+}
+
+.border {
+	border: solid 3px #053D5F;
+    background-color: white;
+    opacity: 0.9;
+}
+.text {
+	margin-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	margin: 5px 0;
+	color: #ffffff
+}
+footer .border {
+	background-color: #3C3B6E;
+}
+.border img {
+	margin: 2%;
+	width: 45%;
+	height: 30%;
+}
+@media screen and (max-width: 700px){
+	.container .movies img {
+		width: 100%;
+	}
+	.border {
+		padding: 5px;
+	}
+	.border .borderimg img {
+		display: none;
+}

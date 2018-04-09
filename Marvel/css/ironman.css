@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/ironbcg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../img/redsteel.jpg);
+	background-attachment: fixed;
+	height: 10%;
+	min-height: 30px;
+	filter: brightness(120%);
+	border-bottom: 2px #B97D10 solid;
+}
+header a {
+	color: #FBCA03;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header a:hover {
+	color: #B97D10;
+}
+.menu {
+	text-align: center;
+	margin-top: 10%;
+}
+.menu a {
+	display: inline-block;
+	padding: 10px 7px 3px 7px;
+	background-color: #6A0C0B;
+	border-left: gold 2px solid; 
+	border-top: gold 2px solid;
+	border-right: gold 2px solid;
+	
+
+}
+.menu a:hover {
+	background-color: #AA0505; /*svetla cervena*/
+	border-left: #B97D10 3px solid; 
+	border-top: #B97D10 3px solid;
+	border-right: #B97D10 3px solid;
+}
+.menu .current {
+	background-color: #AA0505;
+	border-left: #B97D10 3px solid; 
+	border-top: #B97D10 3px solid;
+	border-right: #B97D10 3px solid;
+}
+.filmy {
+	margin: 20px 0;
+}
+.container .movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.container .movies img {
+	width: 32%;
+	height: 57vh;
+	margin: 3px;
+	margin-bottom: 6px;
+}
+h1 {
+	margin-left: 3%;
+	color: gold;
+}
+p {
+	text-align: justify;
+	margin: 2% 3% 2% 3%;
+	color: #ffffff;
+}
+h2 {
+	margin: 5px;
+	color: gold;
+}
+
+.border {
+	border: solid 3px gold;
+    background-image: url(../img/redsteel.jpg);
+    filter: brightness(80%);
+}
+.text {
+	margin-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	margin: 5px 0;
+	color: #ffffff
+}
+footer .border {
+	background-color: #3C3B6E;
+}
+.border img {
+	margin: 2%;
+	width: 45%;
+	height: 30%;
+}
+@media screen and (max-width: 700px){
+	.container .movies img {
+		width: 100%;
+	}
+	.border {
+		padding: 5px;
+	}
+	.border .borderimg img {
+		display: none;
+}

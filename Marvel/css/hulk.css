@@ -1,0 +1,120 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/hulkbcg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../img/hulksmoke.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 10%;
+	min-height: 30px;
+	filter: brightness(100%);
+	border-bottom: 2px #003E00 solid;
+}
+header a {
+	color: #019C00;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header a:hover {
+	color: #000000;
+}
+.menu {
+	text-align: center;
+	margin-top: 10%;
+}
+.menu a {
+	display: inline-block;
+	padding: 10px 7px 3px 7px;
+	background-color: #000000;
+	border-left: #003E00 4px solid; 
+	border-top: #003E00 4px solid;
+	border-right: #003E00 4px solid;
+	
+
+}
+.menu a:hover {
+	background-color: #019C00; 
+	
+}
+.menu .current {
+	color: #000000;
+	background-color: #019C00;
+	border-left: #003E00 3px solid; 
+	border-top: #003E00 3px solid;
+	border-right: #003E00	 3px solid;
+}
+
+.filmy {
+	margin: 20px 0;
+}
+.container .movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.container .movies img {
+	width: 32%;
+	height: 57vh;
+	margin: 3px;
+	margin-bottom: 6px;
+}
+h1 {
+	margin-left: 3%;
+	color: #019C00;
+}
+p {
+	text-align: justify;
+	margin: 2% 3% 2% 3%;
+	color: #ffffff;
+}
+h2 {
+	margin: 5px;
+	color: #019C00;
+}
+
+.border {
+	border: solid 3px #003E00;
+    background-image: url(../img/hulksmoke.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+}
+.text {
+	margin-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	margin: 5px 0;
+	color: #019C00
+}
+footer .border {
+	background-color: #3C3B6E;
+}
+.border img {
+	margin: 2%;
+	width: 45%;
+	height: 30%;
+}
+@media screen and (max-width: 700px){
+	.container .movies img {
+		width: 100%;
+	}
+	.border {
+		padding: 5px;
+	}
+	.border .borderimg img {
+		display: none;
+}

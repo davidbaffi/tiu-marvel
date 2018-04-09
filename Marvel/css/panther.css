@@ -1,0 +1,115 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/blckbcg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../img/pantherfur.jpg);
+	background-attachment: fixed;
+	height: 10%;
+	min-height: 30px;
+	filter: brightness(95%);
+	border-bottom: 2px #000000 solid;
+}
+header a {
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu {
+	text-align: center;
+	margin-top: 10%;
+}
+.menu a {
+	display: inline-block;
+	padding: 10px 7px 3px 7px;
+	background-color: #343338;
+	border-left: #000000 2px solid; 
+	border-top: #000000 2px solid;
+	border-right: #000000 2px solid;
+	
+
+}
+.menu a:hover {
+	background-color: #666664; /*siva*/
+	border-left: #f4f4f4 3px solid; 
+	border-top: #f4f4f4 3px solid;
+	border-right: #f4f4f4 3px solid;
+}
+.menu .current {
+	background-color: #666664;
+	border-left: #f4f4f4 3px solid; 
+	border-top: #f4f4f4 3px solid;
+	border-right: #f4f4f4 3px solid;
+}
+.filmy {
+	margin: 20px 0;
+}
+.container .movies {
+	display: flex;
+	
+	justify-content: space-around;
+	
+}
+.container .movies img {
+	width: 100%;
+	height: 80%;
+	margin: 3px;
+	margin-bottom: 0;
+}
+h1 {
+	margin-left: 3%;
+	color: #f4f4f4;
+}
+p {
+	text-align: justify;
+	margin: 2% 3% 2% 3%;
+	color: #ffffff;
+}
+h2 {
+	margin: 5px;
+	color: #f4f4f4;
+}
+
+.border {
+	border: solid 3px #000000;
+    background-image: url(../img/pantherfur.jpg);
+    filter: brightness(80%);
+}
+.text {
+	margin-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	margin: 5px 0;
+	color: #ffffff
+}
+footer .border {
+	background-color: #3C3B6E;
+}
+.border img {
+	margin: 2%;
+	width: 45%;
+	height: 30%;
+}
+@media screen and (max-width: 700px){
+	.container .movies img {
+		width: 100%;
+	}
+	.border {
+		padding: 5px;
+	}
+	.border .borderimg img {
+		display: none;
+}

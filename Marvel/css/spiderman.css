@@ -1,0 +1,124 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/spiderbcg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../img/spider.jpg);
+	
+	background-position: center;
+	background-size: cover;
+	height: 10%;
+	min-height: 30px;
+	filter: brightness(75%);
+	border-bottom: 2px #3745BF solid;
+}
+header a {
+	color: #000000;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header a:hover {
+	color: #000000;
+}
+.menu {
+	text-align: center;
+	margin-top: 10%;
+}
+.menu a {
+	display: inline-block;
+	padding: 10px 7px 3px 7px;
+	background-color: #D30000;	/*cervena*/
+	border-left: #3745BF 3px solid; /*modra*/
+	border-top: #3745BF 3px solid;
+	border-right: #3745BF 3px solid;
+	
+
+}
+.menu a:hover {
+	background-color: #3745BF; 
+	border-left: #D30000 3px solid; 
+	border-top: #D30000 3px solid;
+	border-right: #D30000 3px solid;
+}
+.menu .current {
+	color: #000000;
+	background-color: #3745BF;
+	border-left: #D30000 3px solid; 
+	border-top: #D30000 3px solid;
+	border-right: #D30000	 3px solid;
+}
+
+.filmy {
+	margin: 20px 0;
+}
+.container .movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.container .movies img {
+	width: 32%;
+	height: 57vh;
+	margin: 3px;
+	margin-bottom: 6px;
+}
+h1 {
+	margin-left: 3%;
+	color: #3745BF;
+}
+p {
+	text-align: justify;
+	margin: 2% 3% 2% 3%;
+	color: #ffffff;
+}
+h2 {
+	margin: 5px;
+	color: #3745BF;
+}
+
+.border {
+	border: solid 3px #3745BF;
+    background-image: url(../img/spider.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+}
+.text {
+	margin-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	margin: 5px 0;
+	color: #ffffff
+}
+footer .border {
+	background-color: #3C3B6E;
+}
+.border img {
+	margin: 2%;
+	width: 45%;
+	height: 30%;
+}
+@media screen and (max-width: 700px){
+	.container .movies img {
+		width: 100%;
+	}
+	.border {
+		padding: 5px;
+	}
+	.border .borderimg img {
+		display: none;
+}

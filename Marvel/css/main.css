@@ -1,0 +1,134 @@
+body {
+	margin: 0px;
+}
+.intro {
+	height: 100%;
+}
+.part1 a {
+	background-image: url("../img/intro1.jpg");
+	padding: 25% 8.33%;
+	background-size: cover;
+	background-position: center;
+	
+	float: left;
+}
+.part2 a {
+	background-image: url("../img/intro2.jpg");
+	padding: 25% 8.33%;
+	background-size: cover;
+	background-position: center;
+	
+	float: left;
+}
+.part3 a {
+	background-image: url("../img/intro3.jpg");
+	padding: 25% 8.33%;
+	background-size: cover;
+	background-position: center;
+	
+	float: left;
+}
+.part4 a {
+	background-image: url("../img/intro4.jpg");
+	padding: 25% 8.33%;
+	background-size: cover;
+	background-position: center;
+	
+	float: left;
+}
+.part5 a {
+	background-image: url("../img/intro5.jpg");
+	padding: 25% 8.33%;
+	background-size: cover;
+	background-position: center;
+	
+	float: left;
+}
+.part6 a {
+	background-image: url("../img/intro6.jpg");
+	padding: 25% 8.33%;
+	background-size: cover;
+	background-position: center;
+	
+	float: left;
+}
+.part1 a:hover {
+	filter: brightness(120%);
+}
+.part2 a:hover {
+	filter: brightness(120%);
+}
+.part3 a:hover {
+	filter: brightness(120%);
+}
+.part4 a:hover {
+	filter: brightness(120%);
+}
+.part5 a:hover {
+	filter: brightness(120%);
+}
+.part6 a:hover {
+	filter: brightness(120%);
+}
+
+@media screen and (max-width: 600px){
+.part1 a {
+	width: 100%;
+	padding-bottom: 300px; 		
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}.part1 a:hover {
+	border: solid white 10px;
+}	
+.part2 a {
+	width: 100%;
+	padding-bottom: 300px; 		
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.part2 a:hover {
+	border: solid white 10px;
+}
+.part3 a {
+	width: 100%;
+	padding-bottom: 300px; 		
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.part3 a:hover {
+	border: solid white 10px;
+}
+.part4 a {
+	width: 100%;
+	padding-bottom: 300px; 		
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.part4 a:hover {
+	border: solid white 10px;
+}
+.part5 a {
+	width: 100%;
+	padding-bottom: 300px; 		
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.part5 a:hover {
+	border: solid white 10px;
+}
+.part6 a {
+	width: 100%;
+	padding-bottom: 800px; 		
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.part6 a:hover {
+	border: solid white 10px;
+}
+}

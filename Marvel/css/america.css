@@ -1,0 +1,116 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/captbcg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../img/amflag.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 30px;
+	filter: brightness(95%);
+
+}
+header a {
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu {
+	text-align: center;
+	margin-top: 10%;
+}
+.menu a {
+	display: inline-block;
+	padding: 10px 7px 3px 7px;
+	background-color: #3C3B6E;
+	border-left: #B22234 4px solid; /*cervena*/
+	border-top: #B22234 4px solid;
+	border-right: #B22234 4px solid;
+	border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+.menu a:hover {
+	background-color: #B22234;
+	border-left: #3C3B6E 4px solid; /*modra*/
+	border-top: #3C3B6E 4px solid;
+	border-right: #3C3B6E 4px solid;
+}
+.menu .current {
+	background-color: #B22234;
+	border-left: #3C3B6E 4px solid; 
+	border-top: #3C3B6E 4px solid;
+	border-right: #3C3B6E 4px solid;
+}
+.filmy {
+	margin: 20px 0;
+}
+.container .movies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.container .movies img {
+	width: 32%;
+	height: 57vh;
+	margin: 3px;
+	margin-bottom: 6px;
+}
+h1 {
+	margin-left: 3%;
+	color: #3C3B6E;
+}
+p {
+	text-align: justify;
+	margin: 2% 3% 2% 3%;
+}
+h2 {
+	margin: 5px;
+}
+.border {
+	border: #B22234 4px solid;
+	border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(235, 235, 224);
+
+}
+.text {
+	margin-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	margin: 5px 0;
+	color: #ffffff
+}
+footer .border {
+	background-color: #3C3B6E;
+}
+.border img {
+	margin: 2%;
+}
+@media screen and (max-width: 700px){
+	.container .movies img {
+		width: 100%;
+	}
+	.border {
+		padding: 5px;
+	}
+	.border .borderimg img {
+		display: none;
+}
